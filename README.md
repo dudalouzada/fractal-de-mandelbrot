@@ -5,6 +5,7 @@ Multibrot, Z^n + C), onde o calculo matematico e feito em **Lua** e a
 interface grafica e feita em **C**, usando a biblioteca
 **raylib**.
 
+
 ## Estrutura do projeto
 
 * `main.c` — interface: entrada do usuario, thread do Lua, conversao de
@@ -12,6 +13,7 @@ interface grafica e feita em **C**, usando a biblioteca
 * `mandelbrot.lua` — calculo: algoritmo Mandelbrot/Multibrot.
 * `Makefile` — compilacao (`build`) e execucao de um caso de estudo
   (`run-caso`).
+
 
 ## Requisitos
 
@@ -40,3 +42,6 @@ make run-caso
 * **Estilizacao:** segure `C` ou `V` para rotacionar a paleta de cores.
 * **Modos de coloracao (`1`, `2`, `3`):** escalonado, suavizado e fase magnetica.
 
+
+## Autor
+* Eduarda Louzada
